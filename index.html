@@ -1,30 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en" dir="ltr">
- 
   <head>
-<meta charset="utf-8" />
-<title>Studio</title>
-</head>
+    <meta charset="utf-8" />
+    <title>Studio</title>
+  </head>
 
-<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-<script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
 
   <body>
-<a-scene>
+    <a-scene>
+      <!-- <a-gltf-model src="http://ConnahM.github.io/Virtual.DJ/assests/Studio_model (Finished).glb" 
+          gltf-model="http://ConnahM.github.io/Virtual.DJ/assests/Studio_model (Finished).glb">  
+    </a-gltf-model> -->
 
-  <a-assets>
-    <img id="sky" crossorigin="anonymous"/>
-    </a-assets>
-    <a-gltf-model src="http://ConnahM.github.io/Virtual.DJ/Studio_model (Finished).glb" 
-          gltf-model="http://ConnahM.github.io/Virtual.DJ/Studio_model (Finished).glb"> 
-          
+      <a-gltf-model
+        src="https://cdn.glitch.com/c504c180-7f64-44cd-b3ee-aa4206f25a49%2FStudio_model_CDJ.glb?v=1610897223873"
+        gltf-model="https://cdn.glitch.com/c504c180-7f64-44cd-b3ee-aa4206f25a49%2FStudio_model_CDJ.glb?v=1610897223873"
+        scale="0.1 0.1 0.1"
+        position="-4.36773 -2.01798 -6.73637"
+        rotation="0 120.71418602493263 0"
+      >
       </a-gltf-model>
-
- 
-
-      <a-entity light="color: #ffffff; type: ambient; intensity: 2" data-aframe-default-light="" aframe-injected=""></a-entity>
-    </a-scene> 
-    
+      <a-entity
+        light="color: #ffffff; type: ambient; intensity: 2"
+        data-aframe-default-light=""
+        aframe-injected=""
+      ></a-entity>
+    </a-scene>
+    <a-entity
+      camera=""
+      position="0 5
+                0"
+      wasd-controls=""
+      rotation="-7.792226013779197 91.67324722093174 0"
+      look-controls=""
+      aframe-injected=""
+      data-aframe-inspector-original-camera=""
+    ></a-entity>
   </body>
 </html>
 
